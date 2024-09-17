@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  margin: 0;
+  padding: 0;
+  background-image: url('trabb1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container {
+  height: 800px;
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 20px;
+  background-color: rgb(248, 240, 179);
+  margin-top: 800px;
+}
+
+#jogo {
+  display: flex;
+  align-content: center;
+}
+
+.coluna {
+  height: 70px;
+  width: 70px;
+  border: 1px solid #000;
+  background-color: #fff;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#coracoes {
+  margin-top: 20px;
+  display: flex;
+  float: left;
+}
+
+.coracao {
+  display: inline-block;
+  font-size: 3em;
+  margin: 0 5px;
+  color: red;
+  height: 120px;
+}
+
+#estrela {
+  margin-top: 30px;
+  float: left;
+}
+
+.estrelas {
+  display: inline-block;
+  font-size: 9em;
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+#botoes-controle {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
